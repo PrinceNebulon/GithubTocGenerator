@@ -1,5 +1,5 @@
 # GithubTocGenerator
-Chrome extension to generate a table of contents for Github wiki pages. The extension adds a context menu to any URL matching _\*://\*.github.com/\*/wiki\*_ that allows you to generate a table of contents in markdown. The script pulls all H1-H6 elements from the wiki page contents (from the _.markdown-body_ div) and outputs them in a formatted list with anchor links.
+Chrome extension to generate a table of contents for Github wiki and markdown pages. The extension adds a context menu to any URL matching _\*://\*.github.com/\*/wiki\*_ or _\*://\*.github.com/\*.md_ that allows you to generate a table of contents in markdown. The script pulls all H1-H6 elements from the wiki page contents (from the _.markdown-body_ div) and outputs them in a formatted list with anchor links.
 
 Context menu screenshot:
 
